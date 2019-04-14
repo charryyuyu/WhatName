@@ -1,6 +1,7 @@
 <?php
 
 require "public_module.php";
+echo $a;
 
 $sql = "INSERT INTO biao (`name`) values ('newname')";
 // $sql = "SELECT * from biao";
